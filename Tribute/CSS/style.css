@@ -69,6 +69,7 @@ p {
     max-width: 300px;
     display: block;
     margin: 0px auto;
+    max-height: 300px;
 
 
 }
@@ -131,6 +132,152 @@ p {
 
 }
 
+#fashion {
+    padding: 50px 0px 30px 50px;
+    position: relative;
+}
+
+#fashion:before {
+    content: 'fashion';
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -120px;
+    top: 50%;
+    color: #014235;
+}
+
+#fashion1 {
+    display: flex;
+}
+
+#fashion2 {
+    display: flex;
+}
+
+#WWII {
+    padding: 50px 0px 30px 50px;
+    position: relative;
+}
+
+#WWII:before {
+    content: 'wwii';
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    color: #014235;
+}
+
+#WWII1 {
+    display: flex;
+}
+
+#WWII3 {
+    display: flex;
+}
+
+#postWWIItitle {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    color: #014235;
+}
+
+#honors {
+    padding: 50px 0px 30px 50px;
+    position: relative;
+}
+
+#honors:before {
+    content: 'honors';
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    color: #014235;
+}
+
+#honors2 {
+    display: flex;
+}
+
+#honors3 {
+    display: flex;
+}
+
+#list {
+    padding: 0 0 0 20px;
+}
+
+#list::before {
+    content: '.........';
+    font-size: 50px;
+    transform: rotate(90deg);
+    color: #014235;
+    display: inline-block;
+    letter-spacing: 10px;
+    position: relative;
+    left: -100px;
+    top: 125px;
+
+}
+
+#list2 {
+    padding: 0 0 0 20px;
+}
+
+#list2::before {
+    content: '...';
+    font-size: 50px;
+    transform: rotate(90deg);
+    color: #014235;
+    display: inline-block;
+    letter-spacing: 10px;
+    position: relative;
+    left: -30px;
+    top: 60px;
+
+}
+
+#farewell {
+    padding: 50px 0px 30px 50px;
+    position: relative;
+}
+
+#farewell:before {
+    content: 'farewell';
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    color: #014235;
+}
+
+#farewell1 {
+    display: flex;
+}
+
 #tribute-link {}
 
 #menu {
@@ -144,4 +291,5 @@ p {
     font-weight: 900;
     text-align: right;
     color: #1D2927;
+    text-decoration: none;
 }
